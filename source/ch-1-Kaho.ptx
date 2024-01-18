@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-1-Kaho" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> Kaho`olave </title>
+
+  <introduction>
+    <p>  <p>
+      
+    </p>
+     
+      The main topics of this chapter are fundamental for describing quantitative information. They are units, percentages and significant figures. 
+
+    </p>
+
+  <p> Concepts will be illustrated as we discuss the Hawaiian island of Kahoʻolawe which was formed during the Ice age (Pleistocene epoch). </p>
+
+
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="sec-units.ptx" />
+
+</chapter>

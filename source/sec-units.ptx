@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-units" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Units and Unit Analysis</title>
+
+ <p> <q>  Scientific progress is measured in units of courage, not intelligence. </q> - Paul Dirac </p>
+
+  <p> Almost all numbers we encounter in day-to-day life (news reports, professional data, personal finances...) have <term> units</term> attached. The <term> units </term> of a quantity describe what the quantity measures or counts. Units tell us how to interpret numbers and give us awareness of scale.  </p>
+
+</section>
