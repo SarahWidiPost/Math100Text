@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <chapter xml:id="ch-1-Kaho" xmlns:xi="http://www.w3.org/2001/XInclude">
-  <title> Kaho`olave </title>
+  <title> Kahoʻolawe </title>
 
   <introduction>
     <p> 
@@ -11,8 +11,10 @@
     </p>
 
   <p> Concepts will be illustrated as we discuss the Hawaiian island of Kahoʻolawe which was formed during the Ice age (Pleistocene epoch). </p>
-
-
+<figure>
+  <image source="Kaho/kahoplane.png"/>
+  <shortdescription> The an image of the island, showing the western side and surrounding ocean </shortdescription>
+<caption> Aerial views of the island of Kahoʻolawe. Taken by Prof. M. Chyba on January 29, 2023.</caption> </figure>
   </introduction>
 
   <!-- include sections -->

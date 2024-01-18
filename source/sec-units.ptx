@@ -13,5 +13,215 @@
     measures or counts. Units tell us how to 
     interpret numbers and give us awareness of scale.  </p>
 
-     <image source="kahoplane.png"/>
+    <p> <xref ref="ex-units-islands"/> discusses the formation of the 
+      Hawaiian Islands and the relation between their age and position
+       with respect to their volcanic hot spot. We include all units 
+       in the description. </p>
+
+    <example xml:id="ex-units-islands">
+      <p> There are eight major volcanic Islands in Hawaiʻi:
+      Niʻihau, Kauaʻi, Oʻahu, Molokaʻi , Lānaʻi, Maui, 
+      Kahoʻolawe and Hawaiʻi Island
+      <url>https://www.hvcb.org/school-report/eight-major-islands/ </url>. 
+      See <xref ref='Fig1'/>
+
+     </p>
+      
+    <p> In addition, there are several atolls, and numerous smaller islets. 
+      It forms what we call an archipelago. Hawaiʻi became U.S. <m> 50^{th} </m> state on 
+      August 21, 1959 <url> https://www.archives.gov/legislative/features/hawaii </url>, 
+      and is the only one not geographically connected to North America. 
+    </p>
+      <figure xml:id= "Fig1"> 
+
+      <image source="Kaho/Islands-Hawaii.jpg"/> 
+      <caption> Map of the Hawaiian or Sandwich Islands, 
+        published in 1854 in Edward T. Perkins' Na Motu; 
+        or, Reef-Rovings in the South Seas.</caption>
+        <shortdescription> Map of the Hawaiian ialnds in grey and white. </shortdescription> 
+    </figure>
+
+   <p> The formation of the Hawaiian Islands is occurring via
+    Hot-Spot Volcanism. The fixed hot spot at the source of
+    the Hawaiian Islands is located in the middle of the
+    Pacific Plate, and the chain was formed as the plate
+    drifted toward the northwest. Loihi, the youngest
+    seamount of the chain is currently erupting from 
+    its summit at a depth of 1000 meters. In the 
+    following chart we have the age of some Hawaiian
+    volcanoes along with their distance from Kilauea: 
+    <url> https://pubs.usgs.gov/pp/1987/1350/pdf/chapters/pp1350_ch1.pdf </url>
+   </p>
+   
+   <table xml:id="islandsfunction">
+    <tabular halign="center" top="medium">
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Volcano
+        </cell>
+        <cell right="medium">
+          Age in million years
+        </cell>
+        <cell right="medium">
+          Distance in km
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Kilauea
+        </cell>
+        <cell right="medium">
+          0. 2
+        </cell>
+        <cell right="medium">
+          0
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Mauna Kea
+        </cell>
+        <cell right="medium">
+          0.375
+        </cell>
+        <cell right="medium">
+          54
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Kohala
+        </cell>
+        <cell right="medium">
+          0.43
+        </cell>
+        <cell right="medium">
+          100
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Haleakala
+        </cell>
+        <cell right="medium">
+          0.75
+        </cell>
+        <cell right="medium">
+          182
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Kahoolawe
+        </cell>
+        <cell right="medium">
+          1.03
+        </cell>
+        <cell right="medium">
+          185
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          West Maui
+        </cell>
+        <cell right="medium">
+          1.32
+        </cell>
+        <cell right="medium">
+          221
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Lānaʻi
+        </cell>
+        <cell right="medium">
+          1.28
+        </cell>
+        <cell right="medium">
+          226
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          East Molokaʻi
+        </cell>
+        <cell right="medium">
+          1.76
+        </cell>
+        <cell right="medium">
+          256
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          West Molokaʻi
+        </cell>
+        <cell right="medium">
+          1.9
+        </cell>
+        <cell right="medium">
+          280
+        </cell>
+      </row>
+      <row  left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Koolau
+        </cell>
+        <cell right="medium">
+          2.6
+        </cell>
+        <cell right="medium">
+          339
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Waianae
+        </cell>
+        <cell right="medium">
+          3.7
+        </cell>
+        <cell right="medium">
+          374
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Kauaʻi
+        </cell>
+        <cell right="medium">
+          5.1
+        </cell>
+        <cell right="medium">
+          519
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Niʻihau
+        </cell>
+        <cell right="medium">
+          5.89
+        </cell>
+        <cell right="medium">
+          565
+        </cell>
+      </row>
+    </tabular>
+  </table>
+  <p> 
+    This relation is an example of what we call a function 
+    which means that for each Island, given as input their
+    age in million years we have an output in the form of 
+    their distance in km to the Hot Spot. It can be 
+    observed that from Table <xref ref="islandsfunction"/> 
+    that the Island of Niihau is the oldest one from this
+   list being 4.89 million years old and also the furthest
+    one from the Hot Spot at 565 km. Koolau, Oʻahu Island, 
+    is estimated to be 2.6 million years old and at 339 km 
+    from the hot spot.  </p>
+    </example>
+
 </section>
