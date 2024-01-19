@@ -1,0 +1,330 @@
+<subsection xml:id="sec-units-intro" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title> Introduction to Units </title>
+ 
+ 
+
+    <p> <xref ref="ex-units-islands"/> discusses the formation of the 
+      Hawaiian Islands and the relation between their age and position
+       with respect to their volcanic hot spot. We include all units 
+       in the description. </p>
+
+ <exploration xml:id="ex-units-islands">
+      <p> There are eight major volcanic Islands in Hawaiʻi:
+      Niʻihau, Kauaʻi, Oʻahu, Molokaʻi , Lānaʻi, Maui, 
+      Kahoʻolawe and Hawaiʻi Island
+      <url>https://www.hvcb.org/school-report/eight-major-islands/ </url>. 
+      See <xref ref='Fig1'/>
+
+     </p>
+      
+    <p> In addition, there are several atolls, and numerous smaller islets. 
+      It forms what we call an archipelago. Hawaiʻi became U.S. <m> 50^{th} </m> state on 
+      August 21, 1959 <url> https://www.archives.gov/legislative/features/hawaii </url>, 
+      and is the only one not geographically connected to North America. 
+    </p>
+      <figure xml:id= "Fig1"> 
+
+      <image source="Kaho/Islands-Hawaii.jpg"/> 
+      <caption> Map of the Hawaiian or Sandwich Islands, 
+        published in 1854 in Edward T. Perkins' Na Motu; 
+        or, Reef-Rovings in the South Seas.</caption>
+        <shortdescription> Map of the Hawaiian ialnds in grey and white. </shortdescription> 
+    </figure>
+
+   <p> The formation of the Hawaiian Islands is occurring via
+    Hot-Spot Volcanism. The fixed hot spot at the source of
+    the Hawaiian Islands is located in the middle of the
+    Pacific Plate, and the chain was formed as the plate
+    drifted toward the northwest. Loihi, the youngest
+    seamount of the chain is currently erupting from 
+    its summit at a depth of 1000 meters. In the 
+    following chart we have the age of some Hawaiian
+    volcanoes along with their distance from Kilauea: 
+    <url> https://pubs.usgs.gov/pp/1987/1350/pdf/chapters/pp1350_ch1.pdf </url>
+   </p>
+   
+   <table xml:id="islandsfunction">
+    <tabular halign="center" top="medium">
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Volcano
+        </cell>
+        <cell right="medium">
+          Age in million years
+        </cell>
+        <cell right="medium">
+          Distance in km
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Kilauea
+        </cell>
+        <cell right="medium">
+          0. 2
+        </cell>
+        <cell right="medium">
+          0
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Mauna Kea
+        </cell>
+        <cell right="medium">
+          0.375
+        </cell>
+        <cell right="medium">
+          54
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Kohala
+        </cell>
+        <cell right="medium">
+          0.43
+        </cell>
+        <cell right="medium">
+          100
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Haleakala
+        </cell>
+        <cell right="medium">
+          0.75
+        </cell>
+        <cell right="medium">
+          182
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Kahoolawe
+        </cell>
+        <cell right="medium">
+          1.03
+        </cell>
+        <cell right="medium">
+          185
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          West Maui
+        </cell>
+        <cell right="medium">
+          1.32
+        </cell>
+        <cell right="medium">
+          221
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Lānaʻi
+        </cell>
+        <cell right="medium">
+          1.28
+        </cell>
+        <cell right="medium">
+          226
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          East Molokaʻi
+        </cell>
+        <cell right="medium">
+          1.76
+        </cell>
+        <cell right="medium">
+          256
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          West Molokaʻi
+        </cell>
+        <cell right="medium">
+          1.9
+        </cell>
+        <cell right="medium">
+          280
+        </cell>
+      </row>
+      <row  left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Koolau
+        </cell>
+        <cell right="medium">
+          2.6
+        </cell>
+        <cell right="medium">
+          339
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Waianae
+        </cell>
+        <cell right="medium">
+          3.7
+        </cell>
+        <cell right="medium">
+          374
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Kauaʻi
+        </cell>
+        <cell right="medium">
+          5.1
+        </cell>
+        <cell right="medium">
+          519
+        </cell>
+      </row>
+      <row left="medium" bottom="medium">
+        <cell left="medium" right="medium">
+          Niʻihau
+        </cell>
+        <cell right="medium">
+          5.89
+        </cell>
+        <cell right="medium">
+          565
+        </cell>
+      </row>
+    </tabular>
+  </table>
+  <p> 
+    This relation is an example of what we call a function 
+    which means that for each Island, given as input their
+    age in million years we have an output in the form of 
+    their distance in km to the Hot Spot. It can be 
+    observed that from  <xref ref="islandsfunction"/> 
+    that the Island of Niihau is the oldest one from this
+   list being 4.89 million years old and also the furthest
+    one from the Hot Spot at 565 km. Koolau, Oʻahu Island, 
+    is estimated to be 2.6 million years old and at 339 km 
+    from the hot spot.  </p>
+  </exploration>
+
+    <p> <xref ref="ex-units-islands-kaho"/> discusses a
+     dramatic event that occurred on the Island of 
+     Kaho'olawe in Spring 2020. </p>
+
+ <exploration xml:id="ex-units-islands-kaho"> 
+   <p> In late February of 2020, Kahoʻolawe caught fire
+   (see <xref ref="fig-unit1-Aerialfire"/> for an aerial
+   view of the region that burned). 
+   Due to the danger of unexploded ordnances, firefighters 
+   were unable to actively fight the brush fire, which left 
+   it burning for roughly six days until a rainstorm stopped
+   the spread. The fire burned much of the re-introduced 
+   vegetation on the island along with destroying the 
+   Kahoʻolawe Island Reserve Commission (KIRC)
+    equipment and storage 
+    <url> http://www.kahoolawe.hawaii.gov/newsletters/Spring_2020.pdf </url>. 
+<xref ref='fig-unit1-K'/> is a transcript of a news report
+ from Hawaiʻi Public Radio on the subject.  </p>
+
+  <figure xml:id="fig-unit1-K">
+    <image source="Kaho/L2news1.png/"/>
+    <image source="Kaho/L2news2.png"/>
+    <image source="Kaho/L2news3.png"/>
+  <caption>From a news report on Kahoʻolawe fire, 
+  Spring 2020 (source: Hawaiʻi Public Radio).</caption>
+  </figure>
+
+   <p> In that report units were critical to understand the 
+    time-line of the event, its magnitude, as well as 
+    the cost.  Extracted from the text, we can see that 
+    the units quantifying the event are:
+    <m>1</m> <term > week </term>; <m> 9,000</m> <term>acres</term>;
+  <m> 40 </m> <term>years</term>; <m>10,000</m> <term>dollars</term>.</p>
+
+<figure xml:id="fig-unit1-Aerialfire">
+   <image source= "Kaho/IMG_2186.png"/>
+   <caption>Aerial View of the region that caught fire. 
+    Taken by Prof. M. Chyba on January 29, 2023.</caption>
+  
+   </figure>
+  </exploration>
+
+<definition xml:id="def-unit-analysis">
+  <title> Unit Analysis</title>
+  <statement>
+    <p>
+     is the process of working with units to help 
+      solve problems.
+    </p>
+  </statement>
+</definition>
+
+
+<example>
+ <title>  <p> Coming back to  <xref ref="ex-units-islands"/> and 
+    <xref ref="islandsfunction"/>. Answer the following 
+    questions about the units
+   </p>
+  </title>
+ <task> <p> What is the independent variable in this function?
+  What are the units for the independent variable?</p>
+ <solution> Age is the independent variable and <term> Million 
+  Years </term> is the corresponding unit. </solution> 
+ </task>
+<task> <p> What is the dependent variable in this function? 
+  What are the units for the dependent variable?</p>
+<solution > Distance is the dependent variable
+   (the distance depend on the age) and <term> kilometers (km) </term> is
+    the corresponding unit.</solution>
+</task>
+<task>  <p> How much older and further away from the hot spot
+   is Kauaʻi compare to Mauna Kea? </p>
+<solution> Kauaʻi is <m> 4.725</m> <term> million years</term> older
+   than Mauna Kea <m>(5.1-0.375</m> <term> million years) </term> and is <m>511</m> 
+   <term> km </term> further away from the volcanic hot spot (<m> 565-54</m> <term> km. </term>).
+</solution> </task>
+</example>
+<p> We finish this section with another example of units
+   used as a descriptor of some specifics about the 
+   island of Kahoʻolawe.</p>
+   <exploration xml:id="fact-unitK">
+    <title>  Quantitative Information about Kahoʻolawe</title>
+   <p> </p> 
+    <p>  <alert> Environmental data.</alert>
+     The yearly temperature typically varies between 
+      <m> 67^o</m> F (<m>19.4^o</m> C) and <m>75.7^o</m> F 
+      <m>24.3^o</m>C) with the coolest in February and 
+      warmest in September. 
+      The largest rain precipitation is usually in 
+      January with an average of <m>2.44</m> <term> inches</term>
+       (<m> 61.98</m> <term>mm</term>) and the driest month
+        is June with an average of <m>0.67 </m> <term> inches </term>
+         (<m> 17.02</m> <term> mm </term>) 
+         <url> https://geoportal.hawaii.gov/</url>
+     </p>
+       <p> <alert> Geographical data.</alert> 
+        Its position on Earth is given by latitude: 
+        <m> 20.33°</m> <term> N, </term> longitude: 
+        <m>156.36°</m> <term> W. </term>
+        The island's dimension is <m>11</m> <term> miles </term>
+         (<m>17.7 </m><term> km</term>) long by <m>6</m> 
+         <term> miles</term> (<m>9.7</m> <term> km</term>) across. 
+         It has a total land area of <m> 44.6</m> <term>square miles </term>
+          (<m> 115.5 </m> <term> km</term><m>^2</m>), 
+          and the highest elevation is the crater of Lua Makika
+          at <m>1,483 </m> <term>  feet (ft)</term> (<m>452</m> <term>meters</term>) 
+         <url>>https://en.wikipedia.org/wiki/Kahoolawe</url>
+       </p>
+   </exploration>
+
+   
+
+
+  </subsection> 
