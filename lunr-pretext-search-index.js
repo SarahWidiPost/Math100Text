@@ -70,7 +70,97 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.1.2",
   "title": "Unit Conversion",
-  "body": " Unit Conversion  Text of section.  "
+  "body": " Unit Conversion  There are many units used to measure or count the same quantity: for example, we know that 12 months and 1 year both encompass the same amount of time, while Fahrenheit and Celsius are both units that measure temperature. See to see the same quantities given in different units. To convert between units which scale linearly, we use a conversion factor.     A conversion factor is the ratio between two equal units. The known unit is in the denominator and the resulting unit is in the numerator.    For example, if we would like to convert feet into inches we use the fact that 1 foot is the same as 12 inches to obtain the conversion factor of We can use the conversion factor to change 5 feet into inches:     Kahoʻolawe has a total land area of 44.97 square miles (mi ). What is the area in square kilometers(km )?    116.47 km    We use the conversion rule between square miles and square kilometers: ( means that it is an approximation). The conversion factor then becomes: Therefore we have the following: > We have obtained that Kahoʻolawe's total land area in square kilometers is given by 116.47 km !    It is very important to associate the unit to a measurement to avoid confusion and potentially catastrophic scenarios. Indeed, one of the most famous example of metric math mistake happened on September 23, 1999 when the National Aeronautics and Space Administration (NASA) lost the $ 125 million Mars Climate Orbiter spacecraft after a 286-day journey to Mars. This was the result of miscalculations due to the use of English units (thrust data were sent in pounds to NASA) while NASA's navigation team was expecting metric units (Newtons) https:\/\/www.simscale.com\/blog\/nasa-mars-climate-orbiter-metric\/    The 2020 Fire   During 2020 fire in Kahoʻolawe, see example , began around 9:30 am on February 22 and by 9:30 am on February 29 around 9,000 acres had burned.    Over the course of the week, how many square feet were burned? You will need to know that 1 acre = 43,560 square feet   392,040,000 \\mbox{ ft}^2   We use the conversion factor to calculuate     Over the course of the week, how many square miles were burned? You will need to know that 1 square mile is 640 acres   14 \\mbox{ mi}^2   We use the conversion factor to calculuate       Many speedometers or gps devices measure pace rather than speed, that is give how many minutes it takes to travel a mile . We will see later that the winning crew in the 2018 Na Wahine o ke Kai Canoe race had an average speed of about 7.6 miles per hour. What was their pace?    Take the reciprocal of miles per hour to get hours per mile.    7 minutes and 54 seconds per mile.    If the speed is 7.6 miles per hour, then 1 mile = 7.6 hours so their paces was Turning this into minutes we get Or it took 7.89 minutes to go one mile. Let's turn the final answer into minutes and seconds. We conclude that the average pace is 7 minutes and 54 seconds per mile.    Some conversion rules we know instinctively, like 24 hours in one day. Others are easily stated, like one milliliter to one cubic centimeter, or common knowledge in specific disciplines, like 1000 meters to one kilometer. Still others have more complicated conversion rules or formulas. It the for instance the case to convert Fahrenheit into Celsius. In this case, we cannot use a conversion factor but instead a more complicated conversion rule    Conversion between Fahrenheit and Celcius   The formula to convert between Celsius and Fahrenheit is and Farenheit to Celcius is     Kahoʻolawe has a yearly average high temperature of 24.3 C. What is its yearly average high temperature in Fahrenheit?   75.74 F!   We use the conversion formula between Celsius and Fahrenheit to obtain: Therefore the yearly average high temperature on Kahoʻolawe is 75.74 F!    The average low temperature in the winter on Kahoʻolawe is 65 F. What is this temperature in Fahrenheit?   18.3    We use the conversion formula between Fahrenheit and Celcius to obtain: Therefore the average low temperatures in the winter are around 18.3     The Fahrenheit scale was first proposed in 1724 by the German physicist Daniel Gabriel Fahrenheit while the Celsius scale was developed in 1742 by Swedish astronomer Anders Celsius (originally the scale was in the opposite order with 0 being the boiling point of water, and 100 the freezing point). Based on D.G. Fahrenheit's scale, scientists noted that the difference between boiling and freezing water was nearly 180 , and readjusted the scale to be exactly 180 . That's how human body temperature moved from 96 to 98.6 .    "
+},
+{
+  "id": "sec-unit-conversion-2",
+  "level": "2",
+  "url": "sec-unit-conversion.html#sec-unit-conversion-2",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "conversion factor. "
+},
+{
+  "id": "def-conversion-factor",
+  "level": "2",
+  "url": "sec-unit-conversion.html#def-conversion-factor",
+  "type": "Definition",
+  "number": "1.1.7",
+  "title": "",
+  "body": "  A conversion factor is the ratio between two equal units. The known unit is in the denominator and the resulting unit is in the numerator.   "
+},
+{
+  "id": "sec-unit-conversion-4",
+  "level": "2",
+  "url": "sec-unit-conversion.html#sec-unit-conversion-4",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "conversion factor "
+},
+{
+  "id": "sec-unit-conversion-5",
+  "level": "2",
+  "url": "sec-unit-conversion.html#sec-unit-conversion-5",
+  "type": "Example",
+  "number": "1.1.8",
+  "title": "",
+  "body": "  Kahoʻolawe has a total land area of 44.97 square miles (mi ). What is the area in square kilometers(km )?    116.47 km    We use the conversion rule between square miles and square kilometers: ( means that it is an approximation). The conversion factor then becomes: Therefore we have the following: > We have obtained that Kahoʻolawe's total land area in square kilometers is given by 116.47 km !   "
+},
+{
+  "id": "sec-unit-conversion-7",
+  "level": "2",
+  "url": "sec-unit-conversion.html#sec-unit-conversion-7",
+  "type": "Exploration",
+  "number": "1.1.4",
+  "title": "The 2020 Fire.",
+  "body": " The 2020 Fire   During 2020 fire in Kahoʻolawe, see example , began around 9:30 am on February 22 and by 9:30 am on February 29 around 9,000 acres had burned.    Over the course of the week, how many square feet were burned? You will need to know that 1 acre = 43,560 square feet   392,040,000 \\mbox{ ft}^2   We use the conversion factor to calculuate     Over the course of the week, how many square miles were burned? You will need to know that 1 square mile is 640 acres   14 \\mbox{ mi}^2   We use the conversion factor to calculuate    "
+},
+{
+  "id": "sec-unit-conversion-8",
+  "level": "2",
+  "url": "sec-unit-conversion.html#sec-unit-conversion-8",
+  "type": "Exploration",
+  "number": "1.1.5",
+  "title": "",
+  "body": "  Many speedometers or gps devices measure pace rather than speed, that is give how many minutes it takes to travel a mile . We will see later that the winning crew in the 2018 Na Wahine o ke Kai Canoe race had an average speed of about 7.6 miles per hour. What was their pace?    Take the reciprocal of miles per hour to get hours per mile.    7 minutes and 54 seconds per mile.    If the speed is 7.6 miles per hour, then 1 mile = 7.6 hours so their paces was Turning this into minutes we get Or it took 7.89 minutes to go one mile. Let's turn the final answer into minutes and seconds. We conclude that the average pace is 7 minutes and 54 seconds per mile.   "
+},
+{
+  "id": "sec-unit-conversion-9",
+  "level": "2",
+  "url": "sec-unit-conversion.html#sec-unit-conversion-9",
+  "type": "Paragraph (with a defined term)",
+  "number": "",
+  "title": "",
+  "body": "conversion factor conversion rule "
+},
+{
+  "id": "sec-unit-conversion-10",
+  "level": "2",
+  "url": "sec-unit-conversion.html#sec-unit-conversion-10",
+  "type": "Exploration",
+  "number": "1.1.6",
+  "title": "Conversion between Fahrenheit and Celcius.",
+  "body": " Conversion between Fahrenheit and Celcius   The formula to convert between Celsius and Fahrenheit is and Farenheit to Celcius is     Kahoʻolawe has a yearly average high temperature of 24.3 C. What is its yearly average high temperature in Fahrenheit?   75.74 F!   We use the conversion formula between Celsius and Fahrenheit to obtain: Therefore the yearly average high temperature on Kahoʻolawe is 75.74 F!    The average low temperature in the winter on Kahoʻolawe is 65 F. What is this temperature in Fahrenheit?   18.3    We use the conversion formula between Fahrenheit and Celcius to obtain: Therefore the average low temperatures in the winter are around 18.3     The Fahrenheit scale was first proposed in 1724 by the German physicist Daniel Gabriel Fahrenheit while the Celsius scale was developed in 1742 by Swedish astronomer Anders Celsius (originally the scale was in the opposite order with 0 being the boiling point of water, and 100 the freezing point). Based on D.G. Fahrenheit's scale, scientists noted that the difference between boiling and freezing water was nearly 180 , and readjusted the scale to be exactly 180 . That's how human body temperature moved from 96 to 98.6 .   "
+},
+{
+  "id": "sec-working-units",
+  "level": "1",
+  "url": "sec-working-units.html",
+  "type": "Subsection",
+  "number": "1.1.3",
+  "title": "Working with Units",
+  "body": " Working with Units  In this section we provide examples of problems for which to derive the solution we need to use units and unit conversion.  When solving problems with units it is good to remember some guiding principles:  It helps to make an educated guess (maybe by approximation, maybe based on general knowledge), to check how `reasonable' the final answer is.  Identify the units of the inputs, and of the outputs: use this to guide you with what to do, and stop you making mistakes like adding two quantities with different units.  Finish by comparing your answer to your assumptions. Does your answer look reasonable? In a real life problem, what factors might alter the solution?    Reintroducing native plants on the Island of Kahoʻolawe   Due to limited funding and the scope of the work, the restoration of Kahoʻolawe is heavily dependent on the work of volunteers.  Although the number of individuals who volunteer is plentiful, only a small number can travel to Kaho'olawe every year. A critical preparation is that they must go through training with the Kaho`olawe Island Reserve Commission (KIRC) before they travel. Usually there are about two trips to the island every month, with each trip typically spanning a few days.  As of fiscal year 2019, the KIRC reintroduced 459,878 plants to the island over the course of 16 years. We solve below some questions associated to this fact to understand the needed number of volunteers that it required.     On average, it can be estimated that a volunteer can properly plant about 50 trees a day. How many days would be needed for a single volunteer to plant the 459,878 plants that KIRC has reintroduced? How many years does it represent?    We first divide the total number of plants to be planted by the number of plants that the volunteer can plant in one day: Assuming there is 365 days in a year we convert the number in days to years as follow:  As a conclusion, for a single volunteer it would take 9,198 days non stop, which is equivalent to 25.2 years non stop, to realize the work KIRC has done in 16 years (note that KIRC is limited with the number of days per year it can bring volunteers to the island to reintroduce plants).      Since a single volunteer is not realistic, we are now trying to understand the number of volunteers needed in a more realistic scenario. Based on the fact that volunteers spend on average 4 days on the Island, how many volunteers are needed to plant the the 459,878 plants?          "
+},
+{
+  "id": "sec-working-units-4",
+  "level": "2",
+  "url": "sec-working-units.html#sec-working-units-4",
+  "type": "Exploration",
+  "number": "1.1.7",
+  "title": "Reintroducing native plants on the Island of Kahoʻolawe.",
+  "body": " Reintroducing native plants on the Island of Kahoʻolawe   Due to limited funding and the scope of the work, the restoration of Kahoʻolawe is heavily dependent on the work of volunteers.  Although the number of individuals who volunteer is plentiful, only a small number can travel to Kaho'olawe every year. A critical preparation is that they must go through training with the Kaho`olawe Island Reserve Commission (KIRC) before they travel. Usually there are about two trips to the island every month, with each trip typically spanning a few days.  As of fiscal year 2019, the KIRC reintroduced 459,878 plants to the island over the course of 16 years. We solve below some questions associated to this fact to understand the needed number of volunteers that it required.     On average, it can be estimated that a volunteer can properly plant about 50 trees a day. How many days would be needed for a single volunteer to plant the 459,878 plants that KIRC has reintroduced? How many years does it represent?    We first divide the total number of plants to be planted by the number of plants that the volunteer can plant in one day: Assuming there is 365 days in a year we convert the number in days to years as follow:  As a conclusion, for a single volunteer it would take 9,198 days non stop, which is equivalent to 25.2 years non stop, to realize the work KIRC has done in 16 years (note that KIRC is limited with the number of days per year it can bring volunteers to the island to reintroduce plants).      Since a single volunteer is not realistic, we are now trying to understand the number of volunteers needed in a more realistic scenario. Based on the fact that volunteers spend on average 4 days on the Island, how many volunteers are needed to plant the the 459,878 plants?         "
 },
 {
   "id": "backmatter-2",
