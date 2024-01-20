@@ -3,6 +3,228 @@
 <subsection xml:id="sec-unit-conversion" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Unit Conversion </title>
 
-  <p> Text of section. </p>
+  <p> There are many units used to measure or count the same quantity: 
+    for example, we know that 12 months and 1 year both encompass the same amount of time, 
+    while Fahrenheit and Celsius are both units that measure temperature. 
+    See <xref ref="fact-unitK"/> to see the same quantities given in different units. 
+    To convert between units which scale linearly, we use a <term>conversion factor.</term> 
+  </p>
+
+    <definition xml:id="def-conversion-factor">
+      <statement>
+        <p>
+          A <term> conversion factor </term> is the ratio between two equal 
+          units. The known unit is in the denominator and the resulting unit is
+          in the numerator. 
+        </p>
+      </statement>
+    </definition>
+  <p> For example, if we would like to convert feet into inches we use the fact
+  that 1 foot is the same as 12 inches to obtain the <term> conversion factor </term>
+of <me> 1 =\frac{ 12 \mbox{ inches}}{1 \mbox{ foot}}</me>
+We can use the conversion factor to change 5 feet into inches: 
+<me> 5 \mbox{ feet }\times \frac{ 12 \mbox{ inches}}{1 \mbox{ foot}} =60 \mbox{ inches}</me>
+  </p>
+
+
+   <example> <statement> <p> Kahoʻolawe has a total land area of 44.97 square miles (mi<m>^2</m>).
+     What is the area in square kilometers(km <m>^2</m>)? </p> </statement>
+     <answer> <p> 116.47 km<m>^2</m></p> </answer>
+   <solution> <p> 
+    We use the conversion rule between square miles and square kilometers:
+     <m> 1  \mbox{ mi}^2 \approx 2.59 \mbox{ km } ^2</m>
+      (<m> \approx</m> means that it is an approximation).
+       The conversion factor then becomes:
+   <me>  1=\frac{2.59 \text{${\rm km}^2$}}{1 \text{mi$^2$} } </me>
+    Therefore we have the following:
+ <me >
+    44.97 \text{mi$^2$} = 44.97 \text{mi$^2$} \times 1 = 44.97 \text{ mi$^2$} \times \frac{2.59 \text{$km^2$}}{1 \text{mi$^2$} }=116.47 \text{km$^2$}\nonumber
+ </me>>
+    We have obtained that Kahoʻolawe's total land area in square 
+    kilometers is given by 116.47 km <m>^2</m>!
+    </p>
+  </solution>
+</example>
+
+<p> It is very important to associate the unit to a 
+  measurement to avoid confusion and potentially 
+  catastrophic scenarios. Indeed, one of the most 
+  famous example of metric math mistake happened on 
+  September 23, 1999  when the National Aeronautics and
+   Space Administration (NASA) lost the $ 
+   125 million Mars Climate Orbiter spacecraft after a
+  286-day journey to Mars. 
+  This was the result of miscalculations due to the use 
+  of English units (thrust data were sent in pounds to NASA)
+   while NASA's navigation team was expecting metric units
+    (Newtons) 
+    <url>https://www.simscale.com/blog/nasa-mars-climate-orbiter-metric/</url>
+</p>
+
+
+
+<exploration> 
+  <title> The 2020 Fire </title>
+  <introduction>
+    <p> 
+    During 2020 fire in Kahoʻolawe, see example
+    <xref ref="ex-units-islands-kaho"/>, began around 
+    9:30 am on February 22 and by 9:30 am on February 29 
+    around 9,000 acres had burned.
+    </p>
+  </introduction>
+    <task>
+<statement> <p> Over the course of the week, how many 
+  square feet were burned? 
+  You will need to know that 1 acre = 43,560 square feet </p>
+</statement>
+<answer>
+  <p>
+    392,040,000 \mbox{ ft}^2
+  </p>
+</answer>
+<solution>
+  <p>
+    We use the conversion factor to calculuate
+    <me> 9,000 \mbox{ acres} \times 
+      \frac{43, 560 \mbox{ft}^2 }{1 acre}= 392,040,000 \mbox{ ft}^2</me>
+    
+  </p>
+
+</solution>
+   
+</task>   
+<task>
+  <statement> <p> Over the course of the week, how many 
+    square miles were burned? 
+    You will need to know that 1 square mile is 640 acres </p>
+  </statement>
+  <answer>
+    <p>
+      14 \mbox{ mi}^2
+    </p>
+  </answer>
+  <solution>
+    <p>
+      We use the conversion factor to calculuate
+      <me> 9,000 \mbox{ acres} \times 
+        \frac{1 \mbox{mi}^2 }{640 acre} \approx 14\mbox{ mi}^2</me>
+      
+    </p>
+  
+  </solution>
+  
+  </task>   
+  
+</exploration>
+
+
+<exploration>
+  <statement>
+     <p> Many speedometers or gps devices measure pace 
+    rather than speed, that is give 
+    <em> how many minutes it takes to travel a mile</em>. 
+  We will see later <xref ref="ex-na-wahine"/> 
+  that the winning
+    crew in the 2018 Na Wahine o ke Kai Canoe race had 
+    an average speed of about 7.6 miles per hour. 
+    What was their pace? </p>
+  </statement>
+  <hint> <p> Take the reciprocal of miles per hour to get 
+    hours per mile. </p>
+  </hint>
+  <answer> <p>7 minutes and 54 seconds per mile. 
+  </p>
+  </answer>
+  <solution>   <p> If the speed is 7.6 miles per hour,
+     then 1 mile = 7.6 hours so their paces was 
+  <me> \frac{ 1 \mbox{ hour}}{7.6 \mbox{miles}} =0.13157 \mbox{ hours to go 1 mile} 
+  
+  </me>
+  Turning this into minutes we get 
+  <me>\frac{ 1 \mbox{ hour}}{7.6 miles}
+     \times \frac{ 60 \mbox{minutes}}{1 \mbox{hour}}=7.89 \mbox{ min per mile}
+     </me>
+  Or it took 7.89 minutes to go one mile.
+  Let's turn the final answer into minutes and seconds. 
+  <me> .89 \mbox{min}\times \frac{ 60 \mbox{ sec}}{\mbox{ min}}\approx 54 \mbox{ sec}
+  
+  </me>
+  We conclude that the average pace is 7 minutes and 54 seconds per mile. 
+  </p>
+  </solution>
+  
+  </exploration>
+
+<p> Some conversion rules we know instinctively, like 24 
+  hours in one day. Others are easily stated, like 
+  one milliliter to one cubic centimeter, or common 
+  knowledge in specific disciplines,  like 1000 meters 
+  to one kilometer. Still others have more complicated 
+  conversion rules or formulas. It the for instance the 
+  case to convert Fahrenheit into Celsius. In this case,
+  we cannot use a <term> conversion factor </term> but 
+  instead a more complicated <term> conversion rule </term>
+</p>
+
+
+<exploration>
+  <title> Conversion between Fahrenheit and Celcius </title>
+<introduction>
+  <p>
+    The formula to convert between Celsius and Fahrenheit is 
+    <me> 1^o \mbox{F} =\frac{9}{5}\times 1^o \mbox { C}+32 </me>
+    and Farenheit to Celcius is 
+    <me> 1^o \mbox{C} =\frac{5}{9}\times( 1^o \mbox { F}-32) </me> 
+
+  </p>
+</introduction>
+<task> 
+<statement> <p> 
+  Kahoʻolawe has a yearly average high temperature of 
+  24.3<m>^o</m>C. What is its yearly average high 
+  temperature in Fahrenheit?
+</p> </statement>
+<answer> <p> 75.74<m>^o </m> F! </p>
+</answer> 
+<solution> <p>We use the conversion formula between 
+Celsius and Fahrenheit to obtain:
+<me> \frac{9}{5}\times 24.3^oC+32= 75.74^oF. </me>
+Therefore the yearly average high temperature on 
+Kahoʻolawe is 75.74<m>^o </m> F! </p>
+</solution>
+</task>
+<task> 
+  <statement> <p> 
+    The average low temperature in the winter on Kahoʻolawe
+     is 65<m>^o</m>F. What is this temperature in Fahrenheit?
+  </p> </statement>
+  <answer> <p> 18.3 <m> ^o C </m> </p>
+  </answer> 
+  <solution> <p>We use the conversion formula between 
+   Fahrenheit and Celcius to obtain:
+  <me> \frac{5}{9}\times (65 -32) \approx 18.3^o C. </me>
+  Therefore the average low temperatures in the winter are 
+  around 18.3 <m> ^o C </m>
+  </p>
+  </solution>
+  </task>
+<conclusion> <p> 
+  The Fahrenheit scale was first proposed in 1724 
+  by the German physicist Daniel Gabriel Fahrenheit 
+  while the Celsius scale was developed in 1742 by 
+  Swedish astronomer Anders Celsius (originally the 
+  scale was in the opposite order with 0<m> ^oC</m> being 
+  the boiling point of water, and 100<m>^oC</m> 
+  the freezing point). Based on D.G. Fahrenheit's scale, 
+  scientists noted that the difference between boiling 
+  and freezing water was nearly 180<m>^o</m>, and 
+  readjusted the scale to be exactly 180<m>^o</m>. 
+  That's how human body temperature moved from 96<m>^oF</m>
+   to 98.6<m>^oF</m>.
+</p> </conclusion>
+</exploration>
+
+
 
 </subsection>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sec-working-units" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> Working with Units </title>
+  <p> In this section we provide examples of problems for
+   which to derive the solution we need to use units and 
+   unit conversion. </p>
+
+<p> When solving problems with units it is good to 
+  remember some guiding principles: 
+<ul>
+  <li> It helps to make an educated guess 
+    (maybe by approximation, maybe based on general
+     knowledge), to check how `reasonable' the final 
+     answer is. </li>
+<li> Identify the units of the inputs, and of the outputs:
+   use this to guide you with what to do, and stop you 
+   making mistakes like adding two quantities with 
+   different units.  </li>
+  <li>Finish by comparing your answer to your assumptions. </li>  Does your answer look reasonable?  In a real life problem, what factors might alter the solution?
+</ul>
+</p>
+
+<exploration>
+  <title> Reintroducing native plants on the Island of Kahoʻolawe
+  </title>
+  <introduction>
+    <p> Due to limited funding and the scope of the work,
+       the restoration of Kahoʻolawe is heavily dependent
+        on the work of volunteers. 
+    </p>
+ <p> Although the number of individuals who volunteer is 
+  plentiful, only a small number can travel to Kaho'olawe 
+  every year. A critical preparation is that they must 
+  go through training with the Kaho`olawe Island Reserve 
+  Commission (KIRC) before they travel. Usually there are 
+  about two trips to the island every month, with each
+   trip typically spanning a few days.
+    </p>
+    <p> 
+      As of fiscal year 2019, the KIRC reintroduced 459,878 plants 
+      to the island over the course of 16 years. We 
+      solve below some questions associated to this fact 
+      to understand the needed number of volunteers that 
+      it required. </p>
+  </introduction>
+  <part>
+    <statement>
+   <p>  On average, it can be estimated that a volunteer 
+    can properly plant about 50 trees a day. 
+    How many days would be needed for a single volunteer
+     to plant the 459,878 plants that KIRC has reintroduced?
+      How many years does it represent?</p>
+   </statement>
+   <solution> <p> 
+    We first divide the total number of plants to be 
+    planted by the number of plants that the volunteer 
+    can plant in one day:
+    <me> 459,878 \mbox{ plants } \times \frac{1 \mbox{ day}}{50 
+     \mbox{ plants}}=9,198 \mbox{ days to plant}. </me>
+   Assuming there is 365 days in a year we convert the number in days to years as follow:
+    <me> 9,198 \mbox{ days} \times \frac{1 \mbox{ year}}{365 
+     \mbox{ days}}=25.2 \mbox{ years}. </me></p>
+
+     <p>As a conclusion, for a single volunteer it would take 
+     9,198 days non stop, which is equivalent to 25.2 years
+      non stop, to realize the work KIRC has done in 
+      16 years (note that KIRC is limited with the number 
+      of days per year it can bring volunteers to the 
+      island to reintroduce plants).</p>
+    </solution>
+  </part>
+  <part> 
+    <statement>
+      <p>  Since a single volunteer is not realistic, 
+        we are now trying to understand the number of 
+        volunteers needed in a more realistic scenario.
+         Based on the fact that volunteers spend on average
+          4 days on the Island, how many volunteers are
+           needed to plant the the 459,878 plants?</p>
+      </statement>
+
+  <solution>
+    <p>
+    <me> 9,198 \mbox{ days} \times \frac{1 \mbox{ volunteer}}
+      {4  \mbox {days}}=2,299 \mbox{ volunteers needed total}
+     </me>
+
+    </p>
+  </solution>
+  </part>
+
+ </exploration>
+
+  </subsection>
